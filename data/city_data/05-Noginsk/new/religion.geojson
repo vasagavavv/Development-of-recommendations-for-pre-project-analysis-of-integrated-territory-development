@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "religion",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n2288454153", "osm_id": "2288454153", "osm_type": "node", "amenity": "place_of_worship", "religion": "christian", "entrance": null, "start_date": "1998", "ref:temples.ru": "2220", "denomination": "russian_orthodox", "building": "chapel" }, "geometry": { "type": "Point", "coordinates": [ 38.4425235, 55.8537979 ] } },
+{ "type": "Feature", "properties": { "full_id": "n11950792673", "osm_id": "11950792673", "osm_type": "node", "amenity": null, "religion": null, "entrance": "yes", "start_date": null, "ref:temples.ru": null, "denomination": null, "building": null }, "geometry": { "type": "Point", "coordinates": [ 38.4455667, 55.8593426 ] } }
+]
+}

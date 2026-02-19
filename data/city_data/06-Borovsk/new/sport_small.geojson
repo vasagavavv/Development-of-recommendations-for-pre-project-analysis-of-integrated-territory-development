@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "sport_small",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "w205618772", "osm_id": "205618772", "osm_type": "way", "leisure": "stadium", "sport": null, "source:addr": null, "building:levels": null, "name": null, "building": null, "addr:street": null, "addr:postcode": null, "addr:housenumber": null, "addr:country": null, "addr:city": null }, "geometry": { "type": "Point", "coordinates": [ 36.488630262396491, 55.208224332524722 ] } },
+{ "type": "Feature", "properties": { "full_id": "w210217551", "osm_id": "210217551", "osm_type": "way", "leisure": "sports_centre", "sport": null, "source:addr": null, "building:levels": null, "name": "Зал тяжелой атлетики", "building": "yes", "addr:street": "Коммунистическая улица", "addr:postcode": "249010", "addr:housenumber": "20", "addr:country": "RU", "addr:city": "Боровск" }, "geometry": { "type": "Point", "coordinates": [ 36.489284555774901, 55.209134334916712 ] } },
+{ "type": "Feature", "properties": { "full_id": "w502903231", "osm_id": "502903231", "osm_type": "way", "leisure": "sports_centre", "sport": "multi", "source:addr": "ЕГРН", "building:levels": "2", "name": null, "building": "yes", "addr:street": "улица 1 Мая", "addr:postcode": null, "addr:housenumber": "54", "addr:country": null, "addr:city": null }, "geometry": { "type": "Point", "coordinates": [ 36.4782639926188, 55.215341614957183 ] } }
+]
+}

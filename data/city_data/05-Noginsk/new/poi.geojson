@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "poi",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n4391753257", "osm_id": "4391753257", "osm_type": "node", "amenity": "library", "name:ru": null, "memorial": null, "historic": null, "website": null, "name:en": null, "addr:street": null, "name": "Городской филиал №1 МУК \"ЦБ Богородского ГО\"" }, "geometry": { "type": "Point", "coordinates": [ 38.4415803, 55.8658789 ] } },
+{ "type": "Feature", "properties": { "full_id": "n5869501086", "osm_id": "5869501086", "osm_type": "node", "amenity": "cinema", "name:ru": null, "memorial": null, "historic": null, "website": "https://www.cinemacity.film", "name:en": "Cinema City", "addr:street": "Komsomolskaya str.", "name": "Синема Сити" }, "geometry": { "type": "Point", "coordinates": [ 38.4448491, 55.852878 ] } },
+{ "type": "Feature", "properties": { "full_id": "n6680469786", "osm_id": "6680469786", "osm_type": "node", "amenity": null, "name:ru": null, "memorial": "plaque", "historic": "memorial", "website": null, "name:en": null, "addr:street": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 38.4399325, 55.8549842 ] } },
+{ "type": "Feature", "properties": { "full_id": "n10127499407", "osm_id": "10127499407", "osm_type": "node", "amenity": "library", "name:ru": "Городской филиал №5 МУК \"ЦБ Богородского ГО\"", "memorial": null, "historic": null, "website": null, "name:en": null, "addr:street": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 38.4678988, 55.878893 ] } },
+{ "type": "Feature", "properties": { "full_id": "n11237099040", "osm_id": "11237099040", "osm_type": "node", "amenity": "cinema", "name:ru": null, "memorial": null, "historic": null, "website": null, "name:en": null, "addr:street": null, "name": "5D кинотеатр" }, "geometry": { "type": "Point", "coordinates": [ 38.429926, 55.8482626 ] } }
+]
+}

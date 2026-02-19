@@ -1,0 +1,20 @@
+{
+"type": "FeatureCollection",
+"name": "game",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n2196513121", "osm_id": "2196513121", "osm_type": "node", "leisure": "playground", "barrier": null }, "geometry": { "type": "Point", "coordinates": [ 36.4870276, 55.2089541 ] } },
+{ "type": "Feature", "properties": { "full_id": "n12061444383", "osm_id": "12061444383", "osm_type": "node", "leisure": null, "barrier": "gate" }, "geometry": { "type": "Point", "coordinates": [ 36.4552259, 55.2133135 ] } },
+{ "type": "Feature", "properties": { "full_id": "w1302296571", "osm_id": "1302296571", "osm_type": "way", "leisure": null, "barrier": "fence" }, "geometry": { "type": "Point", "coordinates": [ 36.454318731542607, 55.213342201170697 ] } },
+{ "type": "Feature", "properties": { "full_id": "w1302296544", "osm_id": "1302296544", "osm_type": "way", "leisure": "playground", "barrier": null }, "geometry": { "type": "Point", "coordinates": [ 36.45886765, 55.21194865 ] } },
+{ "type": "Feature", "properties": { "full_id": "w1302219134", "osm_id": "1302219134", "osm_type": "way", "leisure": "playground", "barrier": null }, "geometry": { "type": "Point", "coordinates": [ 36.491237532388297, 55.217940311198809 ] } },
+{ "type": "Feature", "properties": { "full_id": "w796975781", "osm_id": "796975781", "osm_type": "way", "leisure": "playground", "barrier": null }, "geometry": { "type": "Point", "coordinates": [ 36.50309963222896, 55.202890275481785 ] } },
+{ "type": "Feature", "properties": { "full_id": "w209587536", "osm_id": "209587536", "osm_type": "way", "leisure": null, "barrier": "fence" }, "geometry": { "type": "Point", "coordinates": [ 36.500467835241487, 55.199704949348856 ] } },
+{ "type": "Feature", "properties": { "full_id": "w209505008", "osm_id": "209505008", "osm_type": "way", "leisure": null, "barrier": "fence" }, "geometry": { "type": "Point", "coordinates": [ 36.489496932093623, 55.210492046831469 ] } },
+{ "type": "Feature", "properties": { "full_id": "w205603538", "osm_id": "205603538", "osm_type": "way", "leisure": null, "barrier": null }, "geometry": { "type": "Point", "coordinates": [ 36.501751664354984, 55.213255832816991 ] } },
+{ "type": "Feature", "properties": { "full_id": "w796913772", "osm_id": "796913772", "osm_type": "way", "leisure": null, "barrier": "fence" }, "geometry": { "type": "Point", "coordinates": [ 36.499857001566085, 55.202279678641034 ] } },
+{ "type": "Feature", "properties": { "full_id": "w796665069", "osm_id": "796665069", "osm_type": "way", "leisure": "playground", "barrier": null }, "geometry": { "type": "Point", "coordinates": [ 36.466597781257917, 55.194606073326732 ] } },
+{ "type": "Feature", "properties": { "full_id": "w796665055", "osm_id": "796665055", "osm_type": "way", "leisure": "playground", "barrier": null }, "geometry": { "type": "Point", "coordinates": [ 36.46258475, 55.19538385 ] } },
+{ "type": "Feature", "properties": { "full_id": "w796665053", "osm_id": "796665053", "osm_type": "way", "leisure": null, "barrier": "fence" }, "geometry": { "type": "Point", "coordinates": [ 36.46181536996253, 55.19557506479466 ] } }
+]
+}

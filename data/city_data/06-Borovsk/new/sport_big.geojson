@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "sport_big",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32637" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 340052.696877897775266, 6120205.229078873991966 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 340370.005625294230413, 6119988.102577275596559 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 339582.386062500299886, 6121729.792360283434391 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 339575.759221338434145, 6121714.004885750822723 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 339624.291087494289968, 6121718.877563076093793 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 338655.797742400551215, 6119668.8447589520365 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 340681.174799261498265, 6119858.39190689008683 ] } }
+]
+}
