@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "poi",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n1175422676", "osm_id": "1175422676", "osm_type": "node", "amenity": "theatre", "name": "Драмтеатр \"Бенефис\"" }, "geometry": { "type": "Point", "coordinates": [ 38.4919013, 52.6268029 ] } },
+{ "type": "Feature", "properties": { "full_id": "n1546806197", "osm_id": "1546806197", "osm_type": "node", "amenity": "cinema", "name": "Кинотеатр \"Луч\"" }, "geometry": { "type": "Point", "coordinates": [ 38.4929096, 52.6262461 ] } },
+{ "type": "Feature", "properties": { "full_id": "n3770910113", "osm_id": "3770910113", "osm_type": "node", "amenity": "library", "name": "Центральная городская библиотека имени М.Горького" }, "geometry": { "type": "Point", "coordinates": [ 38.5012115, 52.6233781 ] } },
+{ "type": "Feature", "properties": { "full_id": "n5773092253", "osm_id": "5773092253", "osm_type": "node", "amenity": "library", "name": "Детская библиотека имени А. С. Пушкина" }, "geometry": { "type": "Point", "coordinates": [ 38.4947437, 52.626508 ] } },
+{ "type": "Feature", "properties": { "full_id": "w268668701", "osm_id": "268668701", "osm_type": "way", "amenity": "cinema", "name": "Историко-культурный центр \"Прожектор\"" }, "geometry": { "type": "Point", "coordinates": [ 38.503392640926563, 52.615964290563959 ] } }
+]
+}

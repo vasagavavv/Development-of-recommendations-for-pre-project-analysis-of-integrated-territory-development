@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "sport_big",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n1553405240", "osm_id": "1553405240", "osm_type": "node", "leisure": "sports_centre", "name": "Спортивный зал школы №15" }, "geometry": { "type": "Point", "coordinates": [ 38.4984111, 52.6169579 ] } },
+{ "type": "Feature", "properties": { "full_id": "n1557097987", "osm_id": "1557097987", "osm_type": "node", "leisure": "sports_centre", "name": "Физкультурно-оздоровительный комплекс ЕГУ им. И.А. Бунина" }, "geometry": { "type": "Point", "coordinates": [ 38.4886886, 52.6255907 ] } },
+{ "type": "Feature", "properties": { "full_id": "n1560164676", "osm_id": "1560164676", "osm_type": "node", "leisure": "sports_centre", "name": "Школа бокса" }, "geometry": { "type": "Point", "coordinates": [ 38.5010876, 52.6253268 ] } },
+{ "type": "Feature", "properties": { "full_id": "w373862773", "osm_id": "373862773", "osm_type": "way", "leisure": "stadium", "name": "Стадион \"Труд\"" }, "geometry": { "type": "Point", "coordinates": [ 38.490603021442503, 52.625728817523644 ] } },
+{ "type": "Feature", "properties": { "full_id": "w51394503", "osm_id": "51394503", "osm_type": "way", "leisure": "sports_centre", "name": null }, "geometry": { "type": "Point", "coordinates": [ 38.510466147519068, 52.618133899835506 ] } }
+]
+}

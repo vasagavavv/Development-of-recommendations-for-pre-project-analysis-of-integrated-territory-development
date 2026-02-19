@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "tour",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "historic": null }, "geometry": { "type": "Point", "coordinates": [ 45.493362876837345, 58.384823256834693 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "historic": null }, "geometry": { "type": "Point", "coordinates": [ 45.49488394249915, 58.384390307909648 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "historic": "memorial" }, "geometry": { "type": "Point", "coordinates": [ 45.492908793594772, 58.382692617998785 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "historic": "memorial" }, "geometry": { "type": "Point", "coordinates": [ 45.491058038786868, 58.382677714465586 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "historic": "memorial" }, "geometry": { "type": "Point", "coordinates": [ 45.488770995975187, 58.382782790733515 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "historic": null }, "geometry": { "type": "Point", "coordinates": [ 45.492310226099889, 58.385067758980348 ] } }
+]
+}

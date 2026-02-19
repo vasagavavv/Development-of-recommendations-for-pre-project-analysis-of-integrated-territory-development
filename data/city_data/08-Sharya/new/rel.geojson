@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "rel",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "w987044483", "osm_id": "987044483", "osm_type": "way", "amenity": "place_of_worship", "religion": "christian", "landuse": null, "addr:street": null, "addr:postcode": null, "addr:housenumber": null, "addr:city": null, "ref:temples.ru": null, "ref:sobory.ru": null, "name:ru": null, "name": "Феодоровской иконы Божией Матери, церковь", "denomination": null, "building": "yes", "alt_name": null }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 45.4721479, 58.3883173 ], [ 45.4725136, 58.3884212 ], [ 45.4726305, 58.3883083 ], [ 45.4722648, 58.3882043 ], [ 45.4721479, 58.3883173 ] ] ] ] } }
+]
+}

@@ -1,0 +1,20 @@
+{
+"type": "FeatureCollection",
+"name": "sport_small",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32637" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 466022.281674780591857, 5829829.28461638558656 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 465856.431858550291508, 5830778.344673259183764 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 465741.413321856351104, 5830865.551350667141378 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 465743.770259083714336, 5830884.878235931508243 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 466096.996584886626806, 5831019.537916184403002 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 465150.057771518011577, 5830756.346592463552952 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 466186.975720456277486, 5830774.573573686182499 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 465025.402517326641828, 5830002.87132250983268 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 466882.771120515244547, 5829865.153115325607359 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 466989.688060740416404, 5829833.829792992211878 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 467073.738975663378369, 5829684.313134396448731 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 466866.587403977289796, 5829693.71013109665364 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 467284.858168178470805, 5829584.07850293815136 ] } }
+]
+}

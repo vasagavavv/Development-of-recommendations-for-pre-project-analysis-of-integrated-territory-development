@@ -1,0 +1,29 @@
+{
+"type": "FeatureCollection",
+"name": "game",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n1541136964", "osm_id": "1541136964", "osm_type": "node", "amenity": "kindergarten", "leisure": null, "name": "Детский сад №1" }, "geometry": { "type": "Point", "coordinates": [ 38.4996068, 52.62789 ] } },
+{ "type": "Feature", "properties": { "full_id": "n1560164663", "osm_id": "1560164663", "osm_type": "node", "amenity": "kindergarten", "leisure": null, "name": "Детский сад №7" }, "geometry": { "type": "Point", "coordinates": [ 38.5013489, 52.6271954 ] } },
+{ "type": "Feature", "properties": { "full_id": "n10002303856", "osm_id": "10002303856", "osm_type": "node", "amenity": null, "leisure": "playground", "name": null }, "geometry": { "type": "Point", "coordinates": [ 38.4936552, 52.6087399 ] } },
+{ "type": "Feature", "properties": { "full_id": "w383576284", "osm_id": "383576284", "osm_type": "way", "amenity": "kindergarten", "leisure": null, "name": "МБДОУ Детский сад №17" }, "geometry": { "type": "Point", "coordinates": [ 38.482402192651726, 52.620979177881395 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "leisure": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 38.49526396877642, 52.624714313998261 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "leisure": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 38.492333140579056, 52.624723381051183 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "leisure": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 38.49505935753421, 52.624667447529347 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "leisure": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 38.487058660216981, 52.625444555132212 ] } },
+{ "type": "Feature", "properties": { "full_id": "NULL ", "osm_id": null, "osm_type": null, "amenity": null, "leisure": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 38.484632372587839, 52.625568724288442 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "leisure": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 38.490922866868736, 52.627553037449559 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "leisure": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 38.492045272413932, 52.627204916783604 ] } },
+{ "type": "Feature", "properties": { "full_id": "NULL ", "osm_id": null, "osm_type": null, "amenity": null, "leisure": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 38.49452215317072, 52.628050921763482 ] } },
+{ "type": "Feature", "properties": { "full_id": "NULL ", "osm_id": null, "osm_type": null, "amenity": null, "leisure": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 38.501816910364781, 52.629020483664078 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "leisure": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 38.505443840130617, 52.625172135091837 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "leisure": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 38.506881181559415, 52.622451304318588 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "leisure": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 38.502078540834312, 52.61738588829472 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "leisure": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 38.503446393345961, 52.616986125684235 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "leisure": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 38.499946753563066, 52.617694178407369 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "leisure": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 38.5104766540653, 52.616218456751113 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "leisure": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 38.513899700751097, 52.616133991933516 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "leisure": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 38.514995849279572, 52.615885983503325 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "leisure": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 38.518832396993922, 52.615358140731828 ] } }
+]
+}

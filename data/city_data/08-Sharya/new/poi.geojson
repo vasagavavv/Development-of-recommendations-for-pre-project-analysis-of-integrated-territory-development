@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "poi",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n6554980886", "osm_id": "6554980886", "osm_type": "node", "amenity": "library", "addr:postcode": null, "addr:housenumber": null, "addr:city": null, "addr:street": "Центральная улица" }, "geometry": { "type": "Point", "coordinates": [ 45.4727198, 58.3923096 ] } },
+{ "type": "Feature", "properties": { "full_id": "n7442670211", "osm_id": "7442670211", "osm_type": "node", "amenity": "library", "addr:postcode": "157505", "addr:housenumber": "5", "addr:city": "Шарья", "addr:street": "Юбилейная улица" }, "geometry": { "type": "Point", "coordinates": [ 45.5027941, 58.3861775 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "addr:postcode": null, "addr:housenumber": null, "addr:city": null, "addr:street": null }, "geometry": { "type": "Point", "coordinates": [ 45.494565913311192, 58.383501734868887 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "addr:postcode": null, "addr:housenumber": null, "addr:city": null, "addr:street": null }, "geometry": { "type": "Point", "coordinates": [ 45.494271491958912, 58.384856003518621 ] } },
+{ "type": "Feature", "properties": { "full_id": "w753750269", "osm_id": "753750269", "osm_type": "way", "amenity": null, "addr:postcode": null, "addr:housenumber": null, "addr:city": null, "addr:street": null }, "geometry": { "type": "Point", "coordinates": [ 45.493566698881629, 58.38431420562798 ] } },
+{ "type": "Feature", "properties": { "full_id": "w135766736", "osm_id": "135766736", "osm_type": "way", "amenity": "theatre", "addr:postcode": "157510", "addr:housenumber": "26", "addr:city": "Ветлужский", "addr:street": "Центральная улица" }, "geometry": { "type": "Point", "coordinates": [ 45.472505571637846, 58.392463512022353 ] } }
+]
+}
