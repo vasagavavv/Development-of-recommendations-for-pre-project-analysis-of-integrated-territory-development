@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "tou",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n1529824266", "osm_id": "1529824266", "osm_type": "node", "historic": "memorial", "tourism": null, "opening_hours": null, "name:ru": null, "name": "А.Н. Апухтин" }, "geometry": { "type": "Point", "coordinates": [ 36.0057025, 53.4424897 ] } },
+{ "type": "Feature", "properties": { "full_id": "n4826659721", "osm_id": "4826659721", "osm_type": "node", "historic": null, "tourism": "museum", "opening_hours": "Mo-Sa 08:00-12:00, 13:00-17:00", "name:ru": "Болховской краеведческий музей", "name": "Болховской краеведческий музей" }, "geometry": { "type": "Point", "coordinates": [ 36.0052719, 53.4478306 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "historic": null, "tourism": null, "opening_hours": null, "name:ru": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 36.006170255219246, 53.44236387480656 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "historic": null, "tourism": null, "opening_hours": null, "name:ru": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 35.999953040503733, 53.439856764188193 ] } }
+]
+}

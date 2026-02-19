@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "food",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n4942496006", "osm_id": "4942496006", "osm_type": "node", "amenity": "cafe", "name": "Ливадия" }, "geometry": { "type": "Point", "coordinates": [ 36.5032967, 52.4011459 ] } },
+{ "type": "Feature", "properties": { "full_id": "w504034891", "osm_id": "504034891", "osm_type": "way", "amenity": "cafe", "name": "Зеленый шум" }, "geometry": { "type": "Point", "coordinates": [ 36.503834372877421, 52.401113546950519 ] } }
+]
+}

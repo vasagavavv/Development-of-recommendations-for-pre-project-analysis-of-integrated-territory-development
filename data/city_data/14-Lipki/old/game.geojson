@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "game",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "w287907257", "osm_id": "287907257", "osm_type": "way", "amenity": null, "leisure": "playground", "name": null, "building:levels": null, "addr:street": null, "addr:postcode": null, "addr:housenumber": null, "addr:city": null, "building": null }, "geometry": { "type": "Point", "coordinates": [ 37.698169387589914, 53.936210492427335 ] } },
+{ "type": "Feature", "properties": { "full_id": "w287934715", "osm_id": "287934715", "osm_type": "way", "amenity": "kindergarten", "leisure": null, "name": null, "building:levels": null, "addr:street": null, "addr:postcode": null, "addr:housenumber": null, "addr:city": null, "building": "yes" }, "geometry": { "type": "Point", "coordinates": [ 37.70290685, 53.94286195 ] } },
+{ "type": "Feature", "properties": { "full_id": "w287934734", "osm_id": "287934734", "osm_type": "way", "amenity": null, "leisure": "playground", "name": null, "building:levels": null, "addr:street": null, "addr:postcode": null, "addr:housenumber": null, "addr:city": null, "building": null }, "geometry": { "type": "Point", "coordinates": [ 37.7017419, 53.94267725000001 ] } },
+{ "type": "Feature", "properties": { "full_id": "w293173939", "osm_id": "293173939", "osm_type": "way", "amenity": "kindergarten", "leisure": null, "name": null, "building:levels": "2", "addr:street": "Пионерская улица", "addr:postcode": "301264", "addr:housenumber": "3А", "addr:city": "Липки", "building": "yes" }, "geometry": { "type": "Point", "coordinates": [ 37.70811865, 53.94376595 ] } },
+{ "type": "Feature", "properties": { "full_id": "w297173529", "osm_id": "297173529", "osm_type": "way", "amenity": null, "leisure": "playground", "name": null, "building:levels": null, "addr:street": null, "addr:postcode": null, "addr:housenumber": null, "addr:city": null, "building": null }, "geometry": { "type": "Point", "coordinates": [ 37.708702975131509, 53.942564853660976 ] } }
+]
+}

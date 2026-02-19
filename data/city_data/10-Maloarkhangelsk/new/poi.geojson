@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "poi",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n4942496346", "osm_id": "4942496346", "osm_type": "node", "amenity": "library" }, "geometry": { "type": "Point", "coordinates": [ 36.5082204, 52.4013066 ] } },
+{ "type": "Feature", "properties": { "full_id": "w504034890", "osm_id": "504034890", "osm_type": "way", "amenity": "cinema" }, "geometry": { "type": "Point", "coordinates": [ 36.503280286695713, 52.400192279486212 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null }, "geometry": { "type": "Point", "coordinates": [ 36.503229394079632, 52.396907171153629 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null }, "geometry": { "type": "Point", "coordinates": [ 36.509338261331699, 52.401037400010289 ] } }
+]
+}

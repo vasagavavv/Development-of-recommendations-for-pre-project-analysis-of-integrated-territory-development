@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "poi",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n4589272290", "osm_id": "4589272290", "osm_type": "node", "amenity": "community_centre", "opening_hours": null, "name:ru": "Районный дом культуры", "name": "Районный дом культуры", "addr:street": "улица Ленина" }, "geometry": { "type": "Point", "coordinates": [ 36.0058377, 53.447557 ] } },
+{ "type": "Feature", "properties": { "full_id": "n4589272790", "osm_id": "4589272790", "osm_type": "node", "amenity": "library", "opening_hours": "We-Mo 09:00-18:00", "name:ru": "Межпоселенческая центральная библиотека им. А.Н.Апухтина", "name": "Межпоселенческая центральная библиотека им. А.Н.Апухтина", "addr:street": "улица Ленина" }, "geometry": { "type": "Point", "coordinates": [ 36.0058949, 53.4476776 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "opening_hours": null, "name:ru": null, "name": null, "addr:street": null }, "geometry": { "type": "Point", "coordinates": [ 36.006275440202351, 53.448266546264875 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "opening_hours": null, "name:ru": null, "name": null, "addr:street": null }, "geometry": { "type": "Point", "coordinates": [ 36.0050690436154, 53.442794430968746 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "opening_hours": null, "name:ru": null, "name": null, "addr:street": null }, "geometry": { "type": "Point", "coordinates": [ 36.005948511795559, 53.440911470574157 ] } }
+]
+}

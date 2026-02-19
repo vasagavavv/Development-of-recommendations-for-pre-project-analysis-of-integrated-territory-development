@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "poi",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "w287934699", "osm_id": "287934699", "osm_type": "way", "amenity": "community_centre", "name": "Дворец культуры", "building:levels": "3", "building": "yes" }, "geometry": { "type": "Point", "coordinates": [ 37.702416979134867, 53.941863802222876 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "name": null, "building:levels": null, "building": null }, "geometry": { "type": "Point", "coordinates": [ 37.701170648081614, 53.940965899512861 ] } }
+]
+}

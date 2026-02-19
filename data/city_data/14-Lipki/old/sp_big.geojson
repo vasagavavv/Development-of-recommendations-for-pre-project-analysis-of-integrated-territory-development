@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "sp_big",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "w287907245", "osm_id": "287907245", "osm_type": "way", "sport": "swimming", "leisure": "sports_centre", "surface": null, "opening_hours": "Tu,Th,Sa,Su 12:00-21:00", "building:levels": "2", "building": "yes" }, "geometry": { "type": "Point", "coordinates": [ 37.70045225, 53.9368361 ] } },
+{ "type": "Feature", "properties": { "full_id": "w288218062", "osm_id": "288218062", "osm_type": "way", "sport": "basketball", "leisure": "pitch", "surface": "asphalt", "opening_hours": null, "building:levels": null, "building": null }, "geometry": { "type": "Point", "coordinates": [ 37.702621239682259, 53.93645472469786 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "sport": null, "leisure": null, "surface": null, "opening_hours": null, "building:levels": null, "building": null }, "geometry": { "type": "Point", "coordinates": [ 37.701665658997314, 53.935975677537286 ] } }
+]
+}

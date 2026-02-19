@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "game",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32637" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 568599.692104195710272, 5975878.238177138380706 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 568888.535820290329866, 5976032.397046059370041 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 567989.212932162336074, 5975980.131284470669925 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 567784.67288439895492, 5976132.405570642091334 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 567762.183530252892524, 5976145.346372190862894 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 567583.77636328432709, 5975550.823334093205631 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 568456.055488967918791, 5976083.029502595774829 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 568243.348915955750272, 5976269.132049127481878 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 567836.153403177973814, 5975892.969332294538617 ] } },
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 567820.825463480432518, 5976142.362449501641095 ] } }
+]
+}

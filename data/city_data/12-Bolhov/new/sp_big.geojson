@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "sp_big",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "w967755167", "osm_id": "967755167", "osm_type": "way", "sport": null, "leisure": "stadium", "name": "Стадион \"Олимпия\"" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 36.0198003, 53.4362787 ], [ 36.0208689, 53.4367138 ], [ 36.021776, 53.4354813 ], [ 36.0202521, 53.4346882 ], [ 36.0186009, 53.4357904 ], [ 36.0198003, 53.4362787 ] ] ] ] } }
+]
+}

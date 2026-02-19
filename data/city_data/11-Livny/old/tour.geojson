@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "tour",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n2998281210", "osm_id": "2998281210", "osm_type": "node", "historic": "memorial", "memorial": null, "name:ru": null, "name:en": null, "name": "Памятник Ливенцам, принимавшим участие в ликвидации аварии на Чернобыльской АЭС" }, "geometry": { "type": "Point", "coordinates": [ 37.5823793, 52.4091209 ] } },
+{ "type": "Feature", "properties": { "full_id": "n5927890554", "osm_id": "5927890554", "osm_type": "node", "historic": "memorial", "memorial": null, "name:ru": null, "name:en": null, "name": "Памятник Ливенцам, погибшим при исполнении интернационального долга в Афганистане и Чеченской республике" }, "geometry": { "type": "Point", "coordinates": [ 37.5823492, 52.4096851 ] } },
+{ "type": "Feature", "properties": { "full_id": "n5927891068", "osm_id": "5927891068", "osm_type": "node", "historic": "memorial", "memorial": null, "name:ru": null, "name:en": null, "name": "Памятник В.И. Ленину в сквере ОАО \"Ливгидромаш\"" }, "geometry": { "type": "Point", "coordinates": [ 37.5575306, 52.4014187 ] } }
+]
+}

@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "sp_big",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "w273097548", "osm_id": "273097548", "osm_type": "way", "sport": "skating", "leisure": "ice_rink", "hoops": null, "addr:street": null, "addr:housenumber": null, "opening_hours": null, "fee": null, "building": null, "addr:city": null, "wheelchair": "no", "seasonal": "yes", "name": "Каток" }, "geometry": { "type": "Point", "coordinates": [ 37.568920865451275, 52.40498422362792 ] } },
+{ "type": "Feature", "properties": { "full_id": "w527533211", "osm_id": "527533211", "osm_type": "way", "sport": "soccer;futsal;volleyball;basketball;tennis", "leisure": "sports_centre", "hoops": null, "addr:street": null, "addr:housenumber": null, "opening_hours": "Mo-Fr 08:00-17:00", "fee": "no", "building": "sports_centre", "addr:city": "Ливны", "wheelchair": null, "seasonal": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 37.57813895861073, 52.408909081398754 ] } },
+{ "type": "Feature", "properties": { "full_id": "w1284330188", "osm_id": "1284330188", "osm_type": "way", "sport": "basketball", "leisure": "pitch", "hoops": "2", "addr:street": null, "addr:housenumber": null, "opening_hours": null, "fee": null, "building": null, "addr:city": null, "wheelchair": null, "seasonal": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 37.566156279781652, 52.409579518881088 ] } },
+{ "type": "Feature", "properties": { "full_id": "w1286680088", "osm_id": "1286680088", "osm_type": "way", "sport": "ice_hockey", "leisure": "ice_rink", "hoops": null, "addr:street": null, "addr:housenumber": null, "opening_hours": null, "fee": null, "building": null, "addr:city": null, "wheelchair": null, "seasonal": "winter", "name": null }, "geometry": { "type": "Point", "coordinates": [ 37.574872, 52.4040193 ] } },
+{ "type": "Feature", "properties": { "full_id": "w1469843876", "osm_id": "1469843876", "osm_type": "way", "sport": null, "leisure": "ice_rink", "hoops": null, "addr:street": null, "addr:housenumber": null, "opening_hours": null, "fee": null, "building": null, "addr:city": null, "wheelchair": null, "seasonal": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 37.573074309809442, 52.409788522874216 ] } }
+]
+}

@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "rel",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n1247524373", "osm_id": "1247524373", "osm_type": "node", "religion": "christian", "amenity": "place_of_worship", "name:ru": null, "wikipedia": null, "wikidata": null, "name": "Церковь Афанасия и Кирилла", "denomination": "orthodox" }, "geometry": { "type": "Point", "coordinates": [ 36.0010691, 53.4437538 ] } },
+{ "type": "Feature", "properties": { "full_id": "w440560608", "osm_id": "440560608", "osm_type": "way", "religion": "christian", "amenity": "place_of_worship", "name:ru": null, "wikipedia": null, "wikidata": null, "name": null, "denomination": "orthodox" }, "geometry": { "type": "Point", "coordinates": [ 36.008623950913268, 53.447788907892871 ] } },
+{ "type": "Feature", "properties": { "full_id": "w439553783", "osm_id": "439553783", "osm_type": "way", "religion": "christian", "amenity": "place_of_worship", "name:ru": null, "wikipedia": null, "wikidata": null, "name": "Церковь Введения", "denomination": "orthodox" }, "geometry": { "type": "Point", "coordinates": [ 36.014063165528754, 53.431499470300118 ] } },
+{ "type": "Feature", "properties": { "full_id": "w439547682", "osm_id": "439547682", "osm_type": "way", "religion": "christian", "amenity": "place_of_worship", "name:ru": null, "wikipedia": null, "wikidata": null, "name": null, "denomination": "orthodox" }, "geometry": { "type": "Point", "coordinates": [ 36.006959858065812, 53.441930353647855 ] } },
+{ "type": "Feature", "properties": { "full_id": "w439547681", "osm_id": "439547681", "osm_type": "way", "religion": "christian", "amenity": "place_of_worship", "name:ru": null, "wikipedia": null, "wikidata": null, "name": null, "denomination": "orthodox" }, "geometry": { "type": "Point", "coordinates": [ 36.00572213183316, 53.441908105686231 ] } },
+{ "type": "Feature", "properties": { "full_id": "w443071801", "osm_id": "443071801", "osm_type": "way", "religion": "christian", "amenity": "place_of_worship", "name:ru": null, "wikipedia": null, "wikidata": null, "name": "Храм Великомученика Георгия Победоносца", "denomination": "orthodox" }, "geometry": { "type": "Point", "coordinates": [ 36.006225818352441, 53.439122381938517 ] } },
+{ "type": "Feature", "properties": { "full_id": "w434803989", "osm_id": "434803989", "osm_type": "way", "religion": "christian", "amenity": "place_of_worship", "name:ru": null, "wikipedia": null, "wikidata": null, "name": "Афанасьевская церковь", "denomination": "orthodox" }, "geometry": { "type": "Point", "coordinates": [ 36.002217852752153, 53.445983563713952 ] } }
+]
+}

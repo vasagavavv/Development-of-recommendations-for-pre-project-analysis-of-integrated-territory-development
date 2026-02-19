@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "tour",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n5169137222", "osm_id": "5169137222", "osm_type": "node", "tourism": null, "historic": "memorial", "name": "ВОВ" }, "geometry": { "type": "Point", "coordinates": [ 40.0439591, 53.926866 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "tourism": null, "historic": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 40.046011846619074, 53.927073944677943 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "tourism": null, "historic": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 40.050703390101937, 53.927181239385924 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "tourism": null, "historic": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 40.040348195924807, 53.930148513353544 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "tourism": null, "historic": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 40.034743018914895, 53.929226456985212 ] } }
+]
+}

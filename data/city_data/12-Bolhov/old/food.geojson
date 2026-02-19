@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "food",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n4583816989", "osm_id": "4583816989", "osm_type": "node", "amenity": "restaurant", "phone": null, "name:ru": null, "name": null, "addr:street": null, "addr:postcode": null, "addr:housenumber": null, "opening_hours": "Su-Fr 12:00-00:00; Sa 12:00-03:00" }, "geometry": { "type": "Point", "coordinates": [ 36.0056476, 53.4436795 ] } },
+{ "type": "Feature", "properties": { "full_id": "n4585313289", "osm_id": "4585313289", "osm_type": "node", "amenity": "cafe", "phone": "+7 48640 23004", "name:ru": "Орбита", "name": "Орбита", "addr:street": "улица Ленина", "addr:postcode": "303140", "addr:housenumber": "18", "opening_hours": "Mo-Fr 11:00-03:00; Sa-Su 19:00-03:00" }, "geometry": { "type": "Point", "coordinates": [ 36.0057473, 53.4468772 ] } },
+{ "type": "Feature", "properties": { "full_id": "n4824790424", "osm_id": "4824790424", "osm_type": "node", "amenity": "cafe", "phone": null, "name:ru": "777", "name": "777", "addr:street": "Первомайская улица", "addr:postcode": null, "addr:housenumber": null, "opening_hours": null }, "geometry": { "type": "Point", "coordinates": [ 36.0005178, 53.4381155 ] } }
+]
+}

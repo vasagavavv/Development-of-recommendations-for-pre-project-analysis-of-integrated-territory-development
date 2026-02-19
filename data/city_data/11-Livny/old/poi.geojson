@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "poi",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n4331526331", "osm_id": "4331526331", "osm_type": "node", "amenity": "cinema", "name": "Русь", "addr:street": "улица Мира", "addr:housenumber": "180А", "addr:city": "Ливны" }, "geometry": { "type": "Point", "coordinates": [ 37.5709185, 52.4052541 ] } },
+{ "type": "Feature", "properties": { "full_id": "n9097578275", "osm_id": "9097578275", "osm_type": "node", "amenity": "library", "name": "Детская библиотека", "addr:street": "улица Гайдара", "addr:housenumber": "10", "addr:city": "Ливны" }, "geometry": { "type": "Point", "coordinates": [ 37.5803833, 52.4090385 ] } },
+{ "type": "Feature", "properties": { "full_id": "n9103624348", "osm_id": "9103624348", "osm_type": "node", "amenity": "library", "name": "Библиотека № 1", "addr:street": "улица Мира", "addr:housenumber": "217А", "addr:city": "Ливны" }, "geometry": { "type": "Point", "coordinates": [ 37.5647995, 52.4016496 ] } },
+{ "type": "Feature", "properties": { "full_id": "n9218682970", "osm_id": "9218682970", "osm_type": "node", "amenity": "library", "name": "Библиотека поселка Набережный", "addr:street": "Набережный Посёлок", "addr:housenumber": "10", "addr:city": "Набережный" }, "geometry": { "type": "Point", "coordinates": [ 37.5373344, 52.4155731 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "name": null, "addr:street": null, "addr:housenumber": null, "addr:city": null }, "geometry": { "type": "Point", "coordinates": [ 37.564286382893336, 52.400433796229741 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "name": null, "addr:street": null, "addr:housenumber": null, "addr:city": null }, "geometry": { "type": "Point", "coordinates": [ 37.561523053467575, 52.402964778365345 ] } }
+]
+}
