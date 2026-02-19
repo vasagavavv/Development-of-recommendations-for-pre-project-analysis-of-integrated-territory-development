@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "poi",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n1872186519", "osm_id": "1872186519", "osm_type": "node", "amenity": "community_centre", "name": "Художественная школа" }, "geometry": { "type": "Point", "coordinates": [ 41.1106623, 57.2516848 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": "cinema", "name": null }, "geometry": { "type": "Point", "coordinates": [ 41.106788046333136, 57.253270543960689 ] } },
+{ "type": "Feature", "properties": { "full_id": "w132132765", "osm_id": "132132765", "osm_type": "way", "amenity": "community_centre", "name": "Дворец культуры" }, "geometry": { "type": "Point", "coordinates": [ 41.109899476165481, 57.251250913648605 ] } }
+]
+}

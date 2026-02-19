@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "food",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n5148365922", "osm_id": "5148365922", "osm_type": "node", "amenity": "cafe", "addr:street": null, "addr:housenumber": null, "cuisine": null, "opening_hours": "We-Mo 11:00-11:00", "name": "открытая кухня на углях" }, "geometry": { "type": "Point", "coordinates": [ 41.1051058, 57.2486787 ] } },
+{ "type": "Feature", "properties": { "full_id": "n5148366021", "osm_id": "5148366021", "osm_type": "node", "amenity": "fast_food", "addr:street": null, "addr:housenumber": null, "cuisine": null, "opening_hours": "Mo-Su 09:00-21:00", "name": "шаурма" }, "geometry": { "type": "Point", "coordinates": [ 41.1035942, 57.2469934 ] } },
+{ "type": "Feature", "properties": { "full_id": "n5695348330", "osm_id": "5695348330", "osm_type": "node", "amenity": "cafe", "addr:street": null, "addr:housenumber": null, "cuisine": "asian", "opening_hours": null, "name": "Оникс" }, "geometry": { "type": "Point", "coordinates": [ 41.1067234, 57.2519297 ] } },
+{ "type": "Feature", "properties": { "full_id": "n13323902954", "osm_id": "13323902954", "osm_type": "node", "amenity": "cafe", "addr:street": "улица Сакко и Ванцетти", "addr:housenumber": "1", "cuisine": null, "opening_hours": null, "name": "Ладь" }, "geometry": { "type": "Point", "coordinates": [ 41.1171812, 57.2472135 ] } },
+{ "type": "Feature", "properties": { "full_id": "n13323902975", "osm_id": "13323902975", "osm_type": "node", "amenity": "cafe", "addr:street": null, "addr:housenumber": null, "cuisine": null, "opening_hours": null, "name": "Сказка" }, "geometry": { "type": "Point", "coordinates": [ 41.1065025, 57.2528287 ] } },
+{ "type": "Feature", "properties": { "full_id": "n13323902977", "osm_id": "13323902977", "osm_type": "node", "amenity": "cafe", "addr:street": null, "addr:housenumber": null, "cuisine": null, "opening_hours": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 41.1057005, 57.2524321 ] } },
+{ "type": "Feature", "properties": { "full_id": "n13323906210", "osm_id": "13323906210", "osm_type": "node", "amenity": "cafe", "addr:street": null, "addr:housenumber": null, "cuisine": null, "opening_hours": null, "name": "Кафе-пекарня" }, "geometry": { "type": "Point", "coordinates": [ 41.1143302, 57.2471863 ] } }
+]
+}

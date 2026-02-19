@@ -1,0 +1,21 @@
+{
+"type": "FeatureCollection",
+"name": "game",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n13323902939", "osm_id": "13323902939", "osm_type": "node", "material": "metal", "barrier": "gate", "access": "private" }, "geometry": { "type": "Point", "coordinates": [ 41.1115855, 57.2494008 ] } },
+{ "type": "Feature", "properties": { "full_id": "w1452827214", "osm_id": "1452827214", "osm_type": "way", "material": null, "barrier": "fence", "access": null }, "geometry": { "type": "Point", "coordinates": [ 41.110392569377233, 57.256802921730781 ] } },
+{ "type": "Feature", "properties": { "full_id": "w1452827197", "osm_id": "1452827197", "osm_type": "way", "material": null, "barrier": "fence", "access": null }, "geometry": { "type": "Point", "coordinates": [ 41.111270374018282, 57.24965992035083 ] } },
+{ "type": "Feature", "properties": { "full_id": "w1227994220", "osm_id": "1227994220", "osm_type": "way", "material": null, "barrier": "fence", "access": null }, "geometry": { "type": "Point", "coordinates": [ 41.127882870859366, 57.262862585536809 ] } },
+{ "type": "Feature", "properties": { "full_id": "w430418559", "osm_id": "430418559", "osm_type": "way", "material": null, "barrier": null, "access": null }, "geometry": { "type": "Point", "coordinates": [ 41.112859893369119, 57.251106895342772 ] } },
+{ "type": "Feature", "properties": { "full_id": "w300544865", "osm_id": "300544865", "osm_type": "way", "material": null, "barrier": null, "access": null }, "geometry": { "type": "Point", "coordinates": [ 41.107422251728082, 57.249114941026797 ] } },
+{ "type": "Feature", "properties": { "full_id": "w132103529", "osm_id": "132103529", "osm_type": "way", "material": null, "barrier": null, "access": null }, "geometry": { "type": "Point", "coordinates": [ 41.110503254385257, 57.255493917668389 ] } },
+{ "type": "Feature", "properties": { "full_id": "w1227992567", "osm_id": "1227992567", "osm_type": "way", "material": null, "barrier": "fence", "access": null }, "geometry": { "type": "Point", "coordinates": [ 41.125605616505851, 57.266014733176505 ] } },
+{ "type": "Feature", "properties": { "full_id": "w1227992566", "osm_id": "1227992566", "osm_type": "way", "material": null, "barrier": "fence", "access": null }, "geometry": { "type": "Point", "coordinates": [ 41.123895698276371, 57.267050846239563 ] } },
+{ "type": "Feature", "properties": { "full_id": "w1136956300", "osm_id": "1136956300", "osm_type": "way", "material": null, "barrier": null, "access": null }, "geometry": { "type": "Point", "coordinates": [ 41.100002745940706, 57.251509219320702 ] } },
+{ "type": "Feature", "properties": { "full_id": "w1136956292", "osm_id": "1136956292", "osm_type": "way", "material": null, "barrier": null, "access": null }, "geometry": { "type": "Point", "coordinates": [ 41.098043507393207, 57.250034188346127 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "material": null, "barrier": null, "access": null }, "geometry": { "type": "Point", "coordinates": [ 41.113668664135652, 57.25154148642968 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "material": null, "barrier": null, "access": null }, "geometry": { "type": "Point", "coordinates": [ 41.111436240251003, 57.25141085153934 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "material": null, "barrier": null, "access": null }, "geometry": { "type": "Point", "coordinates": [ 41.112628849402242, 57.251009746565572 ] } }
+]
+}

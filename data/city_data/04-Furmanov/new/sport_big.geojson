@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "sport_big",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "w131670701", "osm_id": "131670701", "osm_type": "way", "leisure": "stadium", "building": null }, "geometry": { "type": "Point", "coordinates": [ 41.098760573136801, 57.26065554570642 ] } },
+{ "type": "Feature", "properties": { "full_id": "w132132877", "osm_id": "132132877", "osm_type": "way", "leisure": "sports_centre", "building": "yes" }, "geometry": { "type": "Point", "coordinates": [ 41.111897332824761, 57.252728148547206 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "leisure": null, "building": null }, "geometry": { "type": "Point", "coordinates": [ 41.090146086939065, 57.247577416358581 ] } }
+]
+}

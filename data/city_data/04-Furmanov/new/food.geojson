@@ -1,0 +1,18 @@
+{
+"type": "FeatureCollection",
+"name": "food",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n5695348330", "osm_id": "5695348330", "osm_type": "node", "amenity": "cafe", "addr:street": null, "addr:housenumber": null, "cuisine": "asian", "opening_hours": null, "name": "Оникс" }, "geometry": { "type": "Point", "coordinates": [ 41.1067234, 57.2519297 ] } },
+{ "type": "Feature", "properties": { "full_id": "n13323902954", "osm_id": "13323902954", "osm_type": "node", "amenity": "cafe", "addr:street": "улица Сакко и Ванцетти", "addr:housenumber": "1", "cuisine": null, "opening_hours": null, "name": "Ладь" }, "geometry": { "type": "Point", "coordinates": [ 41.1171812, 57.2472135 ] } },
+{ "type": "Feature", "properties": { "full_id": "n13323902975", "osm_id": "13323902975", "osm_type": "node", "amenity": "cafe", "addr:street": null, "addr:housenumber": null, "cuisine": null, "opening_hours": null, "name": "Сказка" }, "geometry": { "type": "Point", "coordinates": [ 41.1065025, 57.2528287 ] } },
+{ "type": "Feature", "properties": { "full_id": "n13323902977", "osm_id": "13323902977", "osm_type": "node", "amenity": "cafe", "addr:street": null, "addr:housenumber": null, "cuisine": null, "opening_hours": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 41.1057005, 57.2524321 ] } },
+{ "type": "Feature", "properties": { "full_id": "n13323906210", "osm_id": "13323906210", "osm_type": "node", "amenity": "cafe", "addr:street": null, "addr:housenumber": null, "cuisine": null, "opening_hours": null, "name": "Кафе-пекарня" }, "geometry": { "type": "Point", "coordinates": [ 41.1143302, 57.2471863 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": "cafe", "addr:street": null, "addr:housenumber": null, "cuisine": null, "opening_hours": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 41.114253559591013, 57.247576830706691 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "addr:street": null, "addr:housenumber": null, "cuisine": null, "opening_hours": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 41.113150512332361, 57.248993136278052 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "addr:street": null, "addr:housenumber": null, "cuisine": null, "opening_hours": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 41.112884594510518, 57.248713759265613 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "addr:street": null, "addr:housenumber": null, "cuisine": null, "opening_hours": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 41.112723875622017, 57.248920748194635 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "addr:street": null, "addr:housenumber": null, "cuisine": null, "opening_hours": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 41.10774128336972, 57.249963513262934 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "amenity": null, "addr:street": null, "addr:housenumber": null, "cuisine": null, "opening_hours": null, "name": null }, "geometry": { "type": "Point", "coordinates": [ 41.10552133240023, 57.249123387728787 ] } }
+]
+}
