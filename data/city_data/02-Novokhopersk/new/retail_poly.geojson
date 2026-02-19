@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "retail_poly",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "w382100166", "osm_id": "382100166", "osm_type": "way", "shop": "supermarket", "amenity": null, "name": "Пятёрочка", "building:levels": "1", "building": "yes", "addr:street": "Советская улица", "addr:housenumber": "128" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 41.6089751, 51.0927812 ], [ 41.6091142, 51.0926356 ], [ 41.6094186, 51.0927503 ], [ 41.6092795, 51.0928959 ], [ 41.6089751, 51.0927812 ] ] ] ] } },
+{ "type": "Feature", "properties": { "full_id": "w382111986", "osm_id": "382111986", "osm_type": "way", "shop": null, "amenity": "marketplace", "name": null, "building:levels": null, "building": "yes", "addr:street": null, "addr:housenumber": null }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 41.587384, 51.0851879 ], [ 41.5876031, 51.0852588 ], [ 41.5875707, 51.0852983 ], [ 41.5877683, 51.0853622 ], [ 41.5880521, 51.0850163 ], [ 41.5878533, 51.084952 ], [ 41.5878111, 51.0850034 ], [ 41.5875968, 51.084934 ], [ 41.5876389, 51.0848827 ], [ 41.5874403, 51.0848184 ], [ 41.5871583, 51.085162 ], [ 41.5873534, 51.0852252 ], [ 41.587384, 51.0851879 ] ] ] ] } }
+]
+}
