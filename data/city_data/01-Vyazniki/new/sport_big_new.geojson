@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "sport_big_new",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "w46089316", "osm_id": "46089316", "osm_type": "way", "leisure": "stadium", "sport": null, "seasonal": null, "name": null, "building": null }, "geometry": { "type": "Point", "coordinates": [ 42.143088438753033, 56.242259040532694 ] } },
+{ "type": "Feature", "properties": { "full_id": "w46089366", "osm_id": "46089366", "osm_type": "way", "leisure": "stadium", "sport": null, "seasonal": null, "name": null, "building": "yes" }, "geometry": { "type": "Point", "coordinates": [ 42.1423149, 56.24252265 ] } },
+{ "type": "Feature", "properties": { "full_id": "w46240473", "osm_id": "46240473", "osm_type": "way", "leisure": "sports_centre", "sport": null, "seasonal": null, "name": "ФОК", "building": "yes" }, "geometry": { "type": "Point", "coordinates": [ 42.1388086, 56.22851965 ] } },
+{ "type": "Feature", "properties": { "full_id": "w121272489", "osm_id": "121272489", "osm_type": "way", "leisure": "ice_rink", "sport": "skating", "seasonal": "winter", "name": null, "building": null }, "geometry": { "type": "Point", "coordinates": [ 42.138846260726318, 56.229061740644582 ] } },
+{ "type": "Feature", "properties": { "full_id": "w132959710", "osm_id": "132959710", "osm_type": "way", "leisure": "sports_centre", "sport": null, "seasonal": null, "name": "Спорткомплекс", "building": null }, "geometry": { "type": "Point", "coordinates": [ 42.128061000493439, 56.24624621385383 ] } },
+{ "type": "Feature", "properties": { "full_id": "n2098500307", "osm_id": "2098500307", "osm_type": "node", "leisure": "sports_centre", "sport": null, "seasonal": null, "name": "Детско-юношеская спортивная школа №2", "building": null }, "geometry": { "type": "Point", "coordinates": [ 42.1524551, 56.2482749 ] } }
+]
+}

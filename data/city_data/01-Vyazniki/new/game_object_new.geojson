@@ -1,0 +1,18 @@
+{
+"type": "FeatureCollection",
+"name": "game_object_new",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "leisure": "playground", "amenity": null, "barrier": null }, "geometry": { "type": "Point", "coordinates": [ 42.150789177577536, 56.247973410465974 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "leisure": "playground", "amenity": null, "barrier": null }, "geometry": { "type": "Point", "coordinates": [ 42.133700801096957, 56.24185568567934 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "leisure": "playground", "amenity": null, "barrier": null }, "geometry": { "type": "Point", "coordinates": [ 42.132810028529391, 56.239751905368422 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "leisure": "playground", "amenity": null, "barrier": null }, "geometry": { "type": "Point", "coordinates": [ 42.130311839171902, 56.23803148010402 ] } },
+{ "type": "Feature", "properties": { "full_id": null, "osm_id": null, "osm_type": null, "leisure": "playground", "amenity": null, "barrier": null }, "geometry": { "type": "Point", "coordinates": [ 42.137170858878257, 56.248604694695068 ] } },
+{ "type": "Feature", "properties": { "full_id": "w89448717", "osm_id": "89448717", "osm_type": "way", "leisure": null, "amenity": "kindergarten", "barrier": null }, "geometry": { "type": "Point", "coordinates": [ 42.142508625063215, 56.240171600697259 ] } },
+{ "type": "Feature", "properties": { "full_id": "w46706782", "osm_id": "46706782", "osm_type": "way", "leisure": null, "amenity": "kindergarten", "barrier": null }, "geometry": { "type": "Point", "coordinates": [ 42.133241182783131, 56.242736635471651 ] } },
+{ "type": "Feature", "properties": { "full_id": "w46707780", "osm_id": "46707780", "osm_type": "way", "leisure": null, "amenity": "kindergarten", "barrier": null }, "geometry": { "type": "Point", "coordinates": [ 42.130505018351585, 56.240409965637376 ] } },
+{ "type": "Feature", "properties": { "full_id": "w88883076", "osm_id": "88883076", "osm_type": "way", "leisure": null, "amenity": "kindergarten", "barrier": null }, "geometry": { "type": "Point", "coordinates": [ 42.153744787061072, 56.246020141875235 ] } },
+{ "type": "Feature", "properties": { "full_id": "w46707781", "osm_id": "46707781", "osm_type": "way", "leisure": null, "amenity": "kindergarten", "barrier": null }, "geometry": { "type": "Point", "coordinates": [ 42.1301614, 56.2408063 ] } },
+{ "type": "Feature", "properties": { "full_id": "w46707782", "osm_id": "46707782", "osm_type": "way", "leisure": null, "amenity": "kindergarten", "barrier": null }, "geometry": { "type": "Point", "coordinates": [ 42.12993545, 56.2411372 ] } }
+]
+}
