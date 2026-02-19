@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "sport_small",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32637" } },
+"features": [
+{ "type": "Feature", "properties": { "amenity": "sport" }, "geometry": { "type": "Point", "coordinates": [ 535008.420292086317204, 5560932.841853704303503 ] } },
+{ "type": "Feature", "properties": { "amenity": "sport" }, "geometry": { "type": "Point", "coordinates": [ 535075.789950264967047, 5561002.651300906203687 ] } },
+{ "type": "Feature", "properties": { "amenity": "sport" }, "geometry": { "type": "Point", "coordinates": [ 535117.03025503794197, 5560994.938419479876757 ] } },
+{ "type": "Feature", "properties": { "amenity": "sport" }, "geometry": { "type": "Point", "coordinates": [ 535044.387504455051385, 5561000.211511882953346 ] } }
+]
+}
