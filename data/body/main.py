@@ -1,5 +1,5 @@
 from flask import Flask, render_template, jsonify, request, send_from_directory
-from category_process.category import classify_point
+from category_process.category import classify_point, classify_and_export_csv
 import webbrowser
 import threading
 import tempfile
@@ -31,12 +31,18 @@ def save_coords():
     global selected_coordinates
     data = request.json
     selected_coordinates = (data['lat'], data['lng'])
-    # После подтверждения точки выполняем классификацию и возвращаем результат
+    # После подтверждения точки выполняем классификацию, экспортируем в CSV и возвращаем результат
     try:
-        result = classify_point(selected_coordinates[0], selected_coordinates[1], raise_on_fail=False)
+        result = classify_and_export_csv(
+            lat=selected_coordinates[0],
+            lon=selected_coordinates[1],
+            city=default_city,
+            region=default_region,
+            output_dir="data/content/evaluation"
+        )
         return jsonify({'status': 'success', 'coords': selected_coordinates, 'classification': result})
     except Exception as e:
-        # В редких случаях classify_point может выбросить - вернём ошибку
+        # В редких случаях может быть ошибка — вернём ошибку
         return jsonify({'status': 'error', 'coords': selected_coordinates, 'message': str(e)}), 500
 
 
@@ -58,15 +64,20 @@ def static_check():
 
 @app.route('/classify', methods=['GET'])
 def classify():
-    """Классификация текущих выбранных координат через category.classify_point"""
+    """Классификация текущих выбранных координат через category.classify_and_export_csv"""
     global selected_coordinates
     if selected_coordinates is None:
         return jsonify({'status': 'error', 'message': 'Координаты ещё не заданы'}), 400
 
     proj_lat, proj_lon = selected_coordinates
     try:
-        # Возвращаем подробный словарь с результатами; не бросаем исключение при отсутствии категории
-        result = classify_point(proj_lat, proj_lon, raise_on_fail=False)
+        result = classify_and_export_csv(
+            lat=proj_lat,
+            lon=proj_lon,
+            city=default_city,
+            region=default_region,
+            output_dir="data/content/evaluation"
+        )
         return jsonify({'status': 'success', 'result': result})
     except Exception as e:
         return jsonify({'status': 'error', 'message': str(e)}), 500
