@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#map {
+    height: 100vh;
+    width: 100%;
+}
+
+#info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    z-index: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-left: 4px solid #0073cc;
+}
+
+#info strong {
+    color: #333;
+}
+
+#coords {
+    color: #0073cc;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    #info {
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+
+/* Button and status */
+#sendBtn {
+    background: #0078d4;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#sendBtn:disabled {
+    background: #cfcfcf;
+    cursor: not-allowed;
+}
+
+#status {
+    font-weight: 600;
+}
+
+.status-success {
+    color: #107c10;
+}
+
+.status-error {
+    color: #a80000;
+}

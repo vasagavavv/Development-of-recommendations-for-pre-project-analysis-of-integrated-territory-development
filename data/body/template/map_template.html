@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Выбор точки на карте - {{ city }}, {{ region }}</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/map_style.css') }}">
+</head>
+<body>
+    <div id="map" data-city="{{ city }}" data-region="{{ region }}" data-center-lat="{{ center_lat }}" data-center-lon="{{ center_lon }}" data-zoom="{{ zoom_level }}"></div>
+    <div id="info">
+        <strong>Город:</strong> {{ city }}<br>
+        <strong>Регион:</strong> {{ region }}<br>
+        <span id="coords">Кликните на карту для выбора точки</span>
+        <div style="margin-top:8px;">
+            <button id="sendBtn" disabled>Отправить на сервер</button>
+            <span id="status" aria-live="polite" style="margin-left:10px"></span>
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="{{ url_for('static', filename='js/map_handler.js') }}"></script>
+    <script>
+        // Передаем данные из HTML data-* в JavaScript
+        const mapEl = document.getElementById('map');
+        const cityName = mapEl.dataset.city;
+        const regionName = mapEl.dataset.region;
+        const centerLat = parseFloat(mapEl.dataset.centerLat);
+        const centerLon = parseFloat(mapEl.dataset.centerLon);
+        const zoomLevel = parseInt(mapEl.dataset.zoom, 10);
+        
+        initMap(cityName, regionName, centerLat, centerLon, zoomLevel);
+    </script>
+</body>
+</html>
