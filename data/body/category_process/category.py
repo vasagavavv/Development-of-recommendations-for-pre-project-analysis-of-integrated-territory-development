@@ -97,8 +97,8 @@ def classify_point(proj_lat: float, proj_lon: float, R_CAT: int = 1500, raise_on
 
 
 
-TEMPLATE_PATH = "/content/drive/MyDrive/НИР/04-Template_new_object.xlsx"
-OUT_PATH = "/content/evaluation/05-New_object_filled.xlsx"
+TEMPLATE_PATH = "\initial data\content\04-Template_new_object.xlsx"
+OUT_PATH = "\content\evaluation\05-New_object_filled.xlsx"
 INPUT_ROW = 4  # строка нового объекта
 
 if not os.path.exists(TEMPLATE_PATH):
