@@ -2,40 +2,41 @@
 let map;
 let marker = null;
 let selectedCoords = null;
+let isochronesLayer = null;
 
 // Функция инициализации карты
 function initMap(city, region, centerLat, centerLon, zoomLevel) {
     // Создаем карту
     map = L.map('map').setView([centerLat, centerLon], zoomLevel);
-    
+
     // Добавляем слои карты
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap contributors',
         maxZoom: 19
     }).addTo(map);
-    
+
     // Обработчик клика
     map.on('click', function(e) {
         const lat = e.latlng.lat;
         const lng = e.latlng.lng;
-        
+
         onMapClick(lat, lng, city, region);
     });
-    
+
     console.log('Карта инициализирована:', city, region);
 }
 
 // Обработчик клика по карте
 function onMapClick(lat, lng, city, region) {
     selectedCoords = {lat: lat, lng: lng};
-    
+
     // Обновляем информацию на странице
-    document.getElementById('coords').innerHTML = 
+    document.getElementById('coords').innerHTML =
         `Выбрана точка: ${lat.toFixed(6)}, ${lng.toFixed(6)}`;
-    
+
     // Обновляем маркер
     updateMarker(lat, lng, city, region);
-    
+
     // Сохраняем координаты в локальное хранилище или отправляем на сервер
     saveCoordinates(lat, lng);
 }
@@ -45,9 +46,9 @@ function updateMarker(lat, lng, city, region) {
     if (marker) {
         map.removeLayer(marker);
     }
-    
+
     marker = L.marker([lat, lng]).addTo(map);
-    
+
     marker.bindPopup(`
         <strong>${city}, ${region}</strong><br>
         Широта: ${lat.toFixed(6)}<br>
@@ -63,19 +64,22 @@ function saveCoordinates(lat, lng) {
         lng: lng,
         timestamp: new Date().toISOString()
     }));
-    
+
     // Вариант 2: Отправляем на локальный сервер (если используется)
     if (window.pywebview && window.pywebview.api) {
         window.pywebview.api.save_coords(lat, lng);
     }
-    
+
     // Вариант 3: Выводим в консоль
     console.log(`Координаты сохранены: ${lat.toFixed(6)}, ${lng.toFixed(6)}`);
 
-    // Обновляем состояние кнопки отправки (если есть)
+    // Обновляем состояние кнопок (если они есть)
     try {
         const sendBtn = document.getElementById('sendBtn');
         if (sendBtn) sendBtn.disabled = false;
+
+        const isoBtn = document.getElementById('isoBtn');
+        if (isoBtn) isoBtn.disabled = false;
     } catch (e) {
         // ignore
     }
@@ -140,15 +144,12 @@ function sendSelectedCoordsToServer() {
             btn.classList.remove('sending');
             btn.removeAttribute('aria-disabled');
             if (assignSuccess) {
-                // Оставляем кнопку заблокированной и показываем "Отправлено"
                 btn.textContent = 'Отправлено';
             } else {
-                // Восстанавливаем исходный текст и снова разрешаем кнопку
                 if (originalBtnText !== null) btn.textContent = originalBtnText;
                 btn.disabled = false;
             }
         }
-        // очистить сообщение через 30 секунд
         setTimeout(() => { statusEl.textContent = ''; statusEl.className = ''; }, 30000);
     });
 }
@@ -162,10 +163,78 @@ function getSavedCoordinates() {
     return null;
 }
 
+// Загрузка и отображение изохронов на карте
+function loadIsochrones() {
+    const statusEl = document.getElementById('status');
+    if (!selectedCoords) {
+        if (statusEl) statusEl.textContent = 'Сначала выберите точку на карте';
+        return;
+    }
+
+    if (statusEl) statusEl.textContent = 'Загрузка изохронов...';
+
+    fetch('/isochrones')
+        .then(resp => resp.json())
+        .then(data => {
+            if (data.status === 'success') {
+                displayIsochrones(data.geojson);
+                if (statusEl) {
+                    statusEl.textContent = `Изохроны загружены (${data.node_count} узлов)`;
+                    statusEl.className = 'status-success';
+                }
+            } else {
+                if (statusEl) {
+                    statusEl.textContent = `Ошибка изохронов: ${data.message}`;
+                    statusEl.className = 'status-error';
+                }
+                console.error('Ошибка изохронов:', data.message);
+            }
+        })
+        .catch(err => {
+            if (statusEl) {
+                statusEl.textContent = 'Ошибка загрузки изохронов';
+                statusEl.className = 'status-error';
+            }
+            console.error('Ошибка загрузки изохронов:', err);
+        });
+}
+
+// Отображение изохронов на карте
+function displayIsochrones(geojson) {
+    // Удаляем старые изохроны если были
+    if (isochronesLayer) {
+        map.removeLayer(isochronesLayer);
+    }
+
+    isochronesLayer = L.geoJSON(geojson, {
+        style: function(feature) {
+            return {
+                color: feature.properties['stroke'] || '#f9b528',
+                weight: feature.properties['stroke-width'] || 2,
+                opacity: feature.properties['stroke-opacity'] || 0.5,
+                fillColor: feature.properties['fill'] || '#f9b528',
+                fillOpacity: feature.properties['fill-opacity'] || 0.5
+            };
+        },
+        onEachFeature: function(feature, layer) {
+            if (feature.properties) {
+                const props = feature.properties;
+                const popupContent = `
+                    <strong>Кольцо ${props.ring_index}</strong><br>
+                    Время: ${props.time_range || 'N/A'} сек<br>
+                    Прозрачность: ${(props['fill-opacity'] * 100).toFixed(0)}%
+                `;
+                layer.bindPopup(popupContent);
+            }
+        }
+    }).addTo(map);
+}
+
 // Экспортируем функции для использования в других скриптах
 window.mapAPI = {
     getSelectedCoords: () => selectedCoords,
     getSavedCoordinates: getSavedCoordinates,
+    loadIsochrones: loadIsochrones,
     clearMarker: () => {
         if (marker) {
             map.removeLayer(marker);
@@ -179,9 +248,14 @@ try {
     const sendBtnInit = document.getElementById('sendBtn');
     if (sendBtnInit) {
         sendBtnInit.addEventListener('click', sendSelectedCoordsToServer);
-        // если в localStorage уже есть координаты — активируем кнопку
         const saved = getSavedCoordinates();
         if (saved) sendBtnInit.disabled = false;
+    }
+
+    // Повешиваем обработчик для кнопки загрузки изохронов если она есть
+    const isoBtnInit = document.getElementById('isoBtn');
+    if (isoBtnInit) {
+        isoBtnInit.addEventListener('click', loadIsochrones);
     }
 } catch (e) {
     // ignore in non-browser contexts

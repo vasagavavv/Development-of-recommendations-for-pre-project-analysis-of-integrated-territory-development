@@ -1,5 +1,6 @@
 from flask import Flask, render_template, jsonify, request, send_from_directory
 from category_process.category import classify_point, classify_and_export_csv
+from category_process.isochrone import get_isochrones
 import webbrowser
 import threading
 import tempfile
@@ -82,7 +83,17 @@ def classify():
     except Exception as e:
         return jsonify({'status': 'error', 'message': str(e)}), 500
 
-# Flask уже обслуживает файлы из static_folder, дополнительный маршрут не нужен
+
+@app.route('/isochrones', methods=['GET'])
+def isochrones():
+    """Получить изохроны (кольца времени ходьбы) для выбранных координат"""
+    global selected_coordinates
+    if selected_coordinates is None:
+        return jsonify({'status': 'error', 'message': 'Координаты ещё не заданы'}), 400
+
+    proj_lat, proj_lon = selected_coordinates
+    result = get_isochrones(lat=proj_lat, lon=proj_lon)
+    return jsonify(result)
 
 def open_browser():
     """Открывает браузер после запуска сервера"""
