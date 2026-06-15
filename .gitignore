@@ -209,3 +209,4 @@ __marimo__/
 # Local documentation and generated dependency file
 doc.md
 requirements.txt
+/cache 

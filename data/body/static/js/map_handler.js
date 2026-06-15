@@ -199,6 +199,97 @@ function loadIsochrones() {
         });
 }
 
+
+// Загрузка и отображение точек метрик (POI)
+function loadMetricPoints() {
+    const statusEl = document.getElementById('status');
+    if (!selectedCoords) {
+        if (statusEl) statusEl.textContent = 'Сначала выберите точку на карте';
+        return;
+    }
+    if (statusEl) statusEl.textContent = 'Загрузка POI...';
+
+    fetch('/metric_points')
+        .then(resp => resp.json())
+        .then(data => {
+            if (data.status === 'success') {
+                displayIsochrones(data.isochrones);
+                displayMetricPoints(data.points, data.colors);
+                if (statusEl) {
+                    statusEl.textContent = 'POI загружены';
+                    statusEl.className = 'status-success';
+                }
+            } else {
+                if (statusEl) statusEl.textContent = 'Ошибка загрузки POI';
+            }
+        }).catch(err => {
+            if (statusEl) statusEl.textContent = 'Ошибка загрузки POI';
+            console.error('Ошибка metric_points:', err);
+        });
+}
+
+
+let metricLayers = {};
+let metricCluster = null;
+
+function displayMetricPoints(pointsGeojson, colors) {
+    if (metricCluster) {
+        map.removeLayer(metricCluster);
+        metricCluster = null;
+    }
+
+    metricCluster = L.markerClusterGroup();
+
+    const geojsonLayer = L.geoJSON(pointsGeojson, {
+        pointToLayer: function(feature, latlng) {
+            const m = feature.properties.metric || feature.properties.metric;
+            const col = feature.properties.color || (colors && (colors[m] || colors['default'])) || '#cccccc';
+            const marker = L.circleMarker(latlng, {
+                radius: 6,
+                fillColor: col,
+                color: '#000',
+                weight: 1,
+                opacity: 1,
+                fillOpacity: 0.9
+            });
+            let popup = `<strong>${m}</strong>`;
+            if (feature.properties && feature.properties.tags) {
+                popup += '<br/>' + Object.entries(feature.properties.tags).map(([k,v]) => `${k}: ${v}`).join('<br/>');
+            }
+            if (feature.properties && feature.properties.zone) {
+                popup += `<br/><em>Зона: ${feature.properties.zone}</em>`;
+            }
+            marker.bindPopup(popup);
+            marker.on('click', function() { marker.openPopup(); });
+            return marker;
+        }
+    });
+
+    metricCluster.addLayer(geojsonLayer);
+    metricCluster.addTo(map);
+
+    // clear and rebuild legend
+    const legend = document.getElementById('legend');
+    if (legend) legend.innerHTML = '';
+    // build legend from colors mapping
+    if (colors) {
+        Object.keys(colors).forEach(metric => {
+            if (metric === 'default') return;
+            addLegendEntry(metric, colors[metric]);
+        });
+    }
+}
+
+function addLegendEntry(metric, color) {
+    // simple legend append
+    const legend = document.getElementById('legend');
+    if (!legend) return;
+    const item = document.createElement('div');
+    item.className = 'legend-item';
+    item.innerHTML = `<span class="legend-color" style="background:${color}"></span> ${metric}`;
+    legend.appendChild(item);
+}
+
 // Отображение изохронов на карте
 function displayIsochrones(geojson) {
     // Удаляем старые изохроны если были
@@ -256,6 +347,12 @@ try {
     const isoBtnInit = document.getElementById('isoBtn');
     if (isoBtnInit) {
         isoBtnInit.addEventListener('click', loadIsochrones);
+    }
+    const metricBtnInit = document.getElementById('metricBtn');
+    if (metricBtnInit) {
+        metricBtnInit.addEventListener('click', loadMetricPoints);
+        const saved = getSavedCoordinates();
+        if (saved) metricBtnInit.disabled = false;
     }
 } catch (e) {
     // ignore in non-browser contexts
